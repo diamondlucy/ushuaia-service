@@ -1,4 +1,4 @@
-package zhang.abel.navigator.resource;
+package lucy.ushuaia.api.resource;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;

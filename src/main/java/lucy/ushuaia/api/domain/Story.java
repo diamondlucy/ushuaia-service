@@ -1,4 +1,4 @@
-package zhang.abel.navigator.domain;
+package lucy.ushuaia.api.domain;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

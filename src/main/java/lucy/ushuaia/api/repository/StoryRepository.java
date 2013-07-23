@@ -1,12 +1,13 @@
-package zhang.abel.navigator.repository;
+package lucy.ushuaia.api.repository;
 
-import zhang.abel.navigator.domain.Story;
+import lucy.ushuaia.api.domain.Story;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class StoryRepository {
     private static Map<String, Story> FAKE_DATA_STORE = new HashMap<>();
+
     static {
         FAKE_DATA_STORE.put("default", new Story("default", "default story", "content of default story"));
     }

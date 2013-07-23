@@ -1,8 +1,7 @@
-package zhang.abel.navigator.resource;
+package lucy.ushuaia.api.resource;
 
-import zhang.abel.navigator.domain.Story;
-import zhang.abel.navigator.repository.StoryRepository;
-
+import lucy.ushuaia.api.repository.StoryRepository;
+import lucy.ushuaia.api.domain.Story;
 import javax.inject.Singleton;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
